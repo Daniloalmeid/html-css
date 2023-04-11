@@ -6,3 +6,13 @@ div.quadrado{
     height: 300px;
     display: inline-block;
 }
+div#q1{
+    background-color: skyblue;
+}
+div#q2{
+    background-image: linear-gradient(to right, yellow,rgb(253, 3, 3) );
+    
+}
+div#q3 {
+   background-image: url('imagens/wallpaper002.jpg');
+}
