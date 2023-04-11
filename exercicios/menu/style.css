@@ -1,7 +1,44 @@
+@charset "UTH-8";
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: rgb(243, 252, 6);
+}
+nav li{
+    display: inline-block
+}
+nav li a{
+    display:inline-block;
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    padding: 20px;
 
+}
+nav li a:hover{
+    background-color: red;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
 
 .dp-menu ul{
-    list-style-type: none;
+  list-style-type: none;
    
+}
+.drop-menu{
+    position: absolute;
+    border: 1px solid black;
+    display: none;
+    }
+.drop-menu a {
+    display: block;
+
+}
+.drop:hover .drop-menu{
+    display: block;
+    background-color: yellow;
+
 }
 
