@@ -29,8 +29,8 @@ nav li a:hover{
 }
 .drop-menu{
     position: absolute;
-    border: 1px solid black;
     display: none;
+    border-radius: 0px 0px 10px 10px ;
     }
 .drop-menu a {
     display: block;
