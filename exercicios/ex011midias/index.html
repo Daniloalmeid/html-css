@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5 </title>
+
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferente ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagen flexivel">
+    </picture>
+    <h1>Reproduzindo audio em HTML 5</h1>
+    <P>Vamos aprender va reproduzir Audio no HTML 5</P>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/dengo.mp3" type="audio/mpeg">
+        <source src="media/dengo.ogg" type="audio/ogg">
+        <source src="media/dengo.wav" type="audio/wav">
+        <P>infelismente seu navegador nao reproduz o conteudo <a href="media/dengo.mp3">clique aqui para baixar o audio</a></P>
+    </audio>
+    <!--<audio src="media/dengo.mp3" controls autoplay>Daniel Dengo</audio>
+     alguns navegador nao aceita !! devemos colocar controls e autoplay -->
+
+</body>
+</html>
