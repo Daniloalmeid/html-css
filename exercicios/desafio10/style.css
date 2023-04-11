@@ -1,0 +1,73 @@
+@charset "UTF-8";
+header{
+    font-family: "idroid.otf", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, rgb(44, 98, 38), rgb(58, 140, 48));
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    height: 200px;
+    
+
+}
+body{ 
+    width: 950px;
+    font-family: "idroid.otf", Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    margin:auto;
+
+}
+h1{
+    text-shadow: 3px 3px 3px black;
+
+}
+p#testohead{
+    text-shadow: 1.5px 1.5px 1.5px black;
+    text-align: center;
+}
+nav{
+    text-align: justify;
+   
+
+}
+.navegador{
+    color: white;
+    text-align:left;
+    text-decoration: none;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    
+    
+
+}
+main{
+    background-color: white;
+    margin: 0px;
+    padding: opx;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.historia{
+    color: rgb(5, 105, 42);
+    text-shadow: 0.5px 0.5px 0.5px black;
+    padding: 10px;
+    margin: 10px;
+}
+.linkcor{
+    color: red;
+    text-decoration:dashed;
+    text-shadow: none;
+    
+}
+.video1{
+    
+}
