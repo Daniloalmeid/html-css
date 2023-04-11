@@ -1,0 +1,17 @@
+@charset "UTF8";
+
+body{
+    font: normal 16px arial,verdana, serif;
+    background-image: linear-gradient(to right,blue,magenta,red);
+}
+h1{
+    text-align: center;
+}
+H2{
+    text-align: right;
+    color: blue;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
