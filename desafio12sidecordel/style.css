@@ -53,6 +53,9 @@ section{
     font-size: 3.5vw;
 
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -60,12 +63,25 @@ section.normal{
 section.imagen{
     background-color: rgb(35, 35, 35);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 
 }
 section.imagen > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.345);
+    background-color: rgba(0, 0, 0, 0.509);
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+}
+section#img01{
+    background-image: url('../desafio12sidecordel/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../desafio12sidecordel/imagens/background002.jpg');
+    background-size: cover;
 }
 footer{
     background-color: black;
