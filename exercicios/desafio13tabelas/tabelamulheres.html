@@ -29,6 +29,16 @@
         background-color: gray;
         border: 1px solid white;
        }
+       Th:hover{
+        background-color: aqua;
+
+       }
+       caption{
+        background-color: rgb(49, 48, 48);
+        color: white;
+       }
+       
+      
     </style>
 </head>
 <body>
@@ -37,21 +47,21 @@
         <caption>Filmes Favoritos</caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</hth>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</hth>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
-                <td>Ana Maria santos</td>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td><a href="#">Ana Maria santos</a></td>
                 <td>Alien</td>
                 <td>Rambo</td>
                 <td>Vingadores</td>
             </tr>
             <tr>
-                <td>Beatriz Sousa</td>
+                <td><a href="#">Beatriz Sousa</a></td>
                 <td>Hulk</td>
                 <td>Inception</td>
                 <td>Batman</td>
@@ -63,7 +73,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Hmomens</th>
+                <th rowspan="3" scope="rowgroup">Hmomens</th>
                 <td>Bruno mendonça</td>
                 <td>Intocaveis</td>
                 <td>Matrix</td>
@@ -82,6 +92,10 @@
                 <td>Toy story</td>
             </tr>
         </tbody>
+        <tfoot>
+            <th colspan="4"  scope="row">Total</th>
+            <td> 1000</td>
+        </tfoot>
        
     </table>
     
