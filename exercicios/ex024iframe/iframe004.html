@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe formulario seguranca</title>
+    <style>
+        iframe{
+            width: 400px;
+            border: 2px solid black;
+        }
+        div.cadastro{
+            width: 400px;
+            border: 2px solid black;
+            padding: 5px;
+            height: 150px;
+            border-radius: 5px;   
+            text-align: center;     
+        }
+        .submit{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu site Principal</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur obcaecati id! Quis, consequuntur quas maxime dignissimos dolores tenetur iure exercitationem? Ducimus assumenda eum neque fuga recusandae animi iusto repudiandae.</p>
+    <iframe src="paginas-extras/pag004.html" frameborder="0">
+        seu navegador nao é compativel com isso...
+    </iframe>
+    <div class="cadastro">
+        <h1>Cadastre-se aqui</h1>
+        <form action="cadastro-php" method="get">
+            <p>
+                Nome
+                <input type="text" name="nome" id="nome">
+                <input type="submit" value="Cadastrar" class="submit">
+            </p>
+        </form>
+       
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga, unde praesentium nobis accusantium repudiandae labore voluptate in tempora facilis, ex tenetur qui saepe vero nostrum, inventore nemo aut veritatis!</p>
+</body>
+</html>
