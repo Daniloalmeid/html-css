@@ -1,4 +1,11 @@
 @charset "UTF8";
 header{
     background-color: red;
+    image-rendering: auto;
+}
+div{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
 }
