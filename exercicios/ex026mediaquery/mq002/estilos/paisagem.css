@@ -3,5 +3,6 @@
 /* Aparelho deitado modo (landscape)*/
 
 body{
-    background-color: rgb(239, 7, 7);
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
